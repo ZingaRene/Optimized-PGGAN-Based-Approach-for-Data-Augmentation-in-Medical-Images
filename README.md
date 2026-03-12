@@ -4,8 +4,9 @@ This repository contains the implementation and experimental results of generati
 
 The paper (Link):
 
-ANOPTIMIZEDPGGAN-BASEDAPPROACHFORDATAAUGMENTATIONINMEDICAL
-IMAGES
+An Optimized PGGAN-Based
+Approach for Data Augmentation in
+Medical Images
 
 Authors:
 
@@ -277,24 +278,3 @@ archivePrefix={arXiv},
 primaryClass={cs.CV}
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
