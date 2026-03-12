@@ -1,6 +1,6 @@
 
 <div style="display: flex; gap: 10px;">
-  <img src="images/Complete_Architecture.png" height="300">
+  <img src="images/Complete_Architecture.png" height="250">
   <img src="images/Generated_and_Original_Pneumonia_Images.png" height="250">
 </div>
 # Optimized-PGGAN-Based-Approach-for-Data-Augmentation-in-Medical-Images
