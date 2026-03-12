@@ -11,7 +11,7 @@
 </td>
 
 <td align="center">
-<img src="images/Generated_and_Original_Pneumonia_Images.png" height="245">
+<img src="images/Generated_and_Original_Pneumonia_Images.png" height="240">
 </td>
 </tr>
 </table>
