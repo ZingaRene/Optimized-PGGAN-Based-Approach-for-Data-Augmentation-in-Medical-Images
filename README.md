@@ -1,17 +1,17 @@
 
 <tr>
 <td colspan="2" align="center">
-<img src="images/Complete_Architecture.png" height="450">
+<img src="images/Complete_Architecture.png" height="500">
 </td>
 </tr>
 
 <tr>
 <td align="center">
-<img src="images/Generated_and_Original_Pneumonia_Images.png" height="225">
+<img src="images/Generated_and_Original_Pneumonia_Images.png" height="250">
 </td>
 
 <td align="center">
-<img src="images/Generated_and_Original_Pneumonia_Images.png" height="225">
+<img src="images/Generated_and_Original_Pneumonia_Images.png" height="250">
 </td>
 </tr>
 </table>
