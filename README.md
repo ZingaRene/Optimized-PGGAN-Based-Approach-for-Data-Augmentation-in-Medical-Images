@@ -7,11 +7,11 @@
 
 <tr>
 <td align="center">
-<img src="images/Generated_and_Original_Pneumonia_Images.png" height="250">
+<img src="images/Generated_and_Original_Pneumonia_Images.png" height="245">
 </td>
 
 <td align="center">
-<img src="images/Generated_and_Original_Pneumonia_Images.png" height="250">
+<img src="images/Generated_and_Original_Pneumonia_Images.png" height="245">
 </td>
 </tr>
 </table>
