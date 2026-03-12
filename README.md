@@ -3,6 +3,23 @@
   <img src="images/Complete_Architecture.png" height="270">
   <img src="images/Generated_and_Original_Pneumonia_Images.png" height="265">
 </div>
+<table>
+<tr>
+<td colspan="2" align="center">
+<img src="images/Complete_Architecture.png" height="300">
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="images/Generated_and_Original_Pneumonia_Images.png" height="300">
+</td>
+
+<td align="center">
+<img src="images/Generated_and_Original_Pneumonia_Images.png" height="300">
+</td>
+</tr>
+</table>
 # Optimized-PGGAN-Based-Approach-for-Data-Augmentation-in-Medical-Images
 This repository contains the implementation and experimental results of generative models for chest X-ray image synthesis using Progressive Growing Generative Adversarial Networks (PGGANs). 
 
