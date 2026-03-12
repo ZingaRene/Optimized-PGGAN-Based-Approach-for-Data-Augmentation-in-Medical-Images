@@ -1,12 +1,7 @@
 
-<div style="display: flex; gap: 10px;">
-  <img src="images/Complete_Architecture.png" height="270">
-  <img src="images/Generated_and_Original_Pneumonia_Images.png" height="265">
-</div>
-<table>
 <tr>
 <td colspan="2" align="center">
-<img src="images/Complete_Architecture.png" height="300">
+<img src="images/Complete_Architecture.png" height="600">
 </td>
 </tr>
 
