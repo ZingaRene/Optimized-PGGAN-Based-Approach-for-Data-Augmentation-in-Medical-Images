@@ -1,4 +1,4 @@
-
+<table>
 <tr>
 <td colspan="2" align="center">
 <img src="images/Complete_Architecture.png" height="500">
