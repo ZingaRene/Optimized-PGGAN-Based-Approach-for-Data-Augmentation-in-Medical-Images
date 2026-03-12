@@ -29,10 +29,9 @@ Medical Images
 Authors:
 
 Zinga Banda Firmino René
-
 Ali Sahib Abosinnee
-
 Gergely Bencsik
+
 ---
 
 # Table of Contents
