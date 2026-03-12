@@ -57,8 +57,11 @@ Gergely Bencsik
    - [7.5 Calculating the FID Scores](#75-calculating-the-fid-scores)
 
 8. [Results](#8-results)
+   - [8.1 FID Comparison](#81-FID-Comparison)
+ 
 
-9. [FAQ and Citation Guidelines](#9-faq-and-citation-guidelines)
+
+10. [FAQ and Citation Guidelines](#9-faq-and-citation-guidelines)
 
    - [9.1 Frequently Asked Questions](#91-frequently-asked-questions)
    - [9.2 Citation Guidelines](#92-citation-guidelines)
@@ -264,6 +267,17 @@ Open the notebook:
 ```bash
 Codes/FID/fid_plot.ipynb
 ```
+8. Results
+8.1 FID Comparison
+<table>
+<tr>
+<td colspan="2" align="center">
+<img src="images/FID_Comparison.png" height="450">
+</td>
+</tr>
+</table>
+
+
 9. FAQ and Citation Guidelines
 9.1 Frequently Asked Questions
 
