@@ -269,13 +269,13 @@ Codes/FID/fid_plot.ipynb
 ```
 8. Results
 8.1 FID Comparison
-<table>
+
 <tr>
 <td colspan="2" align="center">
 <img src="images/FID_Comparison.png" height="450">
 </td>
 </tr>
-</table>
+
 
 
 9. FAQ and Citation Guidelines
