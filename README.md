@@ -377,10 +377,10 @@ The dataset used in this study consists of Chest X-ray (CXR) images with two cla
 <table>
 <tr>
 <td align="center">
-<img src="images/Generated_and_Normal.png" height="260">
+<img src="images/Data Images/NIH/ATE_CAR.png" height="260">
 </td>
 <td align="center">
-<img src="images/Generated_and_Original_Pneumonia_Images.png" height="260">
+<img src="images/Data Images/NIH/PNE_EFF.png" height="260">
 </td>
 </tr>
 </table>
