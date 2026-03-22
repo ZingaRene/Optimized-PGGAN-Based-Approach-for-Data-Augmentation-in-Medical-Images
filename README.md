@@ -102,43 +102,20 @@ Gergely Bencsik
 </details>
 &nbsp;
 
-
-1. [Abstract](#1-abstract)
-
-2. [Our Contributions](#2-our-contributions)
-
-3. [Repository Contents](#3-repository-contents)
-
-4. [Installation](#4-installation)
-
-5. [Methodology](#5-methodology)
-
-6. [Dataset](#6-dataset)
-
-7. [Code Execution Guide](#7-code-execution-guide)
-
-   - [7.1 Training the VGG16 Model](#71-training-the-vgg16-model)
-   - [7.2 Training the Custom CNN Model](#72-training-the-custom-cnn-model)
-   - [7.3 Training the DDPM Model](#73-training-the-ddpm-model)
-   - [7.4 Training the PGGANs Model](#74-training-the-pggans-model)
-   - [7.5 Calculating the FID Scores](#75-calculating-the-fid-scores)
-
-8. [Results](#8-results)
-   - [8.1 FID Comparison](#81-FID-Comparison)
- 
-
-
-10. [FAQ and Citation Guidelines](#9-faq-and-citation-guidelines)
-
-   - [9.1 Frequently Asked Questions](#91-frequently-asked-questions)
-   - [9.2 Citation Guidelines](#92-citation-guidelines)
-
----
-
 ## 1. Abstract
 
-
-Medical image datasets are often small and imbalanced, which significantly limits the performance of deep learning models used for diagnosis.
+Medical imaging datasets such as X-ray datasets are often
+constrained by privacy regulations, acquisition cost, and clin-
+ically meaningful class imbalance which limits the robustness
+of data hungry diagnostic deep learning based models. To
+solve the lack of data, we propose an optimized Progressive
+Growing GAN (PGGAN) tailored for chest X-ray synthesis.
+The optimized PGGAN integrates the normalization tech-
+niques and lightweight channel/spatial attention within its
+progressive convolutional blocks to improve training stability
+and minority class fidelity, alongside per-block noise injection
+to improve stability and sample diversity under small-batch
+training.
 
 This project explores the use of two generative models:
 
@@ -151,8 +128,6 @@ The generated images are evaluated based on their impact on the performance of c
 - Densenet121
 
 Experimental results show that synthetic images significantly improve **classification accuracy, and robustness**.
-
-For more details please refer to the paper included in this repository.
 
 ---
 
@@ -179,6 +154,12 @@ Synthetic augmentation increases the robustness of deep learning classifiers.
 Training converges faster when synthetic samples are included.
 
 The inclusion of synthetic images accelerates the convergence of classification algorithms.
+
+<tr>
+<td colspan="2" align="center">
+<img src="images/Table_Classification_Comparison.png" height="450">
+</td>
+</tr>
 
 ## 3. Repository Contents
 ```
@@ -230,13 +211,13 @@ The inclusion of synthetic images accelerates the convergence of classification 
 │   │   │   │       ├── NORMAL
 │   │   │   │       └── PNEUMONIA
 │   │   │   ├── Original
-│   │   │   │   └── selected_images
-│   │   │   │       ├── NORMAL
-│   │   │   │       └── PNEUMONIA
-│   │   │   └── Test_greedy
-│   │   │       └── Test
-│   │   │           ├── NORMAL
-│   │   │           └── PNEUMONIA
+│   │   │       └── selected_images
+│   │   │           ├── NORMAL
+│   │   │           └── PNEUMONIA
+│   │   │   
+│   │   │       
+│   │   │           
+│   │   │           
 │   │   └── Randeom_Selection
 │   │       ├── Mixed
 │   │       │   ├── DDPM_Mixed
@@ -249,11 +230,11 @@ The inclusion of synthetic images accelerates the convergence of classification 
 │   │       │       ├── NORMAL
 │   │       │       └── PNEUMONIA
 │   │       ├── Original_Random
-│   │       │   ├── NORMAL
-│   │       │   └── PNEUMONIA
-│   │       └── Test_random
-│   │           ├── NORMAL
-│   │           └── PNEUMONIA
+│   │           ├── NORMAL
+│   │           └── PNEUMONIA
+│   │       
+│   │           
+│   │           
 │   └── Imbalanced_data
 │       ├── Greedy_K_Selection
 │       │   ├── Mixed
@@ -267,11 +248,11 @@ The inclusion of synthetic images accelerates the convergence of classification 
 │       │   │       ├── NORMAL
 │       │   │       └── PNEUMONIA
 │       │   ├── Original
-│       │   │   ├── NORMAL
-│       │   │   └── PNEUMONIA
-│       │   └── Test_greedy
-│       │       ├── NORMAL
-│       │       └── PNEUMONIA
+│       │       ├── NORMAL
+│       │       └── PNEUMONIA
+│       │   
+│       │       
+│       │       
 │       └── Randeom_Selection
 │           ├── Mixed
 │           │   ├── DDPM_Mixed
@@ -313,7 +294,6 @@ The inclusion of synthetic images accelerates the convergence of classification 
 │   └── Random_Method_Analysis.xlsx
 ├── .gitignore
 ├── Code.zip
-├── DDPM_X_Ray___Paper.pdf
 ├── LICENSE
 ├── README.md
 ├── environment.yml
@@ -389,11 +369,28 @@ Click on the figure to open it in a new window for a clearer and more detailed v
 
 ## 6. Dataset
 
+### Chest X-ray (CXR)
 The dataset used in this study consists of Chest X-ray (CXR) images with two classes: *NORMAL* and *PNEUMONIA*. The dataset is structured as follows:
 - `dataset/NORMAL`: Contains normal CXR images.
 - `dataset/PNEUMONIA`: Contains pneumonia CXR images.
 
-![alt text](Figures/Dataset.png)
+### NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories
+The ChestX-ray dataset comprises 112,120 frontal-view X-ray images from 30,805 unique patients. Each image is
+annotated with up to fourteen disease labels (allowing multi-label classification), which were extracted from the associated radiological reports using natural language processing. These fourteen common thoracic pathologies include
+atelectasis, consolidation, infiltration, pneumothorax, edema, emphysema, fibrosis, effusion, pneumonia, pleural thickening, cardiomegaly, nodule, mass, and hernia.
+From this dataset, we selected four specific categories for our experiments: 
+-`pneumonia`, `effusion`, `atelectasis`, and `cardiomegaly`.
+
+<table>
+<tr>
+<td align="center">
+<img src="images/Data Images/CXR/EFF_INF_.png" height="260">
+</td>
+<td align="center">
+<img src="images/Data Images/CXR/EFF_PNE_.png" height="260">
+</td>
+</tr>
+</table>
 
 
 ## 7. Code Execution Guide
