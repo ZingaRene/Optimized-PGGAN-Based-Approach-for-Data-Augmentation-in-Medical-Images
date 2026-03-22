@@ -383,10 +383,10 @@ From this dataset, we selected four specific categories for our experiments:
 
 <tr>
 <td align="center">
-<img src="images/Data Images/CXR/EFF_INF_.png" height="260">
+<img src="images/Data Images/CXR/EFF_INF_.png" height="255">
 </td>
 <td align="center">
-<img src="images/Data Images/CXR/EFF_PNE_.png" height="260">
+<img src="images/Data Images/CXR/EFF_PNE_.png" height="255">
 </td>
 </tr>
 
