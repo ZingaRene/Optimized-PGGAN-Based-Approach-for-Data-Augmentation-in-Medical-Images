@@ -381,7 +381,6 @@ atelectasis, consolidation, infiltration, pneumothorax, edema, emphysema, fibros
 From this dataset, we selected four specific categories for our experiments: 
 -`pneumonia`, `effusion`, `atelectasis`, and `cardiomegaly`.
 
-<table>
 <tr>
 <td align="center">
 <img src="images/Data Images/CXR/EFF_INF_.png" height="260">
@@ -390,8 +389,6 @@ From this dataset, we selected four specific categories for our experiments:
 <img src="images/Data Images/CXR/EFF_PNE_.png" height="260">
 </td>
 </tr>
-</table>
-
 
 ## 7. Code Execution Guide
 
