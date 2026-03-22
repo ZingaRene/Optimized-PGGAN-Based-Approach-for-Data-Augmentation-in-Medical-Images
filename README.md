@@ -374,16 +374,11 @@ The dataset used in this study consists of Chest X-ray (CXR) images with two cla
 - `dataset/NORMAL`: Contains normal CXR images.
 - `dataset/PNEUMONIA`: Contains pneumonia CXR images.
   
-<table>
 <tr>
-<td align="center">
-<img src="images/Data Images/NIH/ATE_CAR.png" height="260">
-</td>
-<td align="center">
-<img src="images/Data Images/NIH/PNE_EFF.png" height="260">
+<td colspan="2" align="center">
+<img src="images/Data Images/CXR/Pneumonia_Normal.png" height="450">
 </td>
 </tr>
-</table>
 
 ### NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories
 The ChestX-ray dataset comprises 112,120 frontal-view X-ray images from 30,805 unique patients. Each image is
@@ -395,10 +390,10 @@ From this dataset, we selected four specific categories for our experiments:
 <table>
 <tr>
 <td align="center">
-<img src="images/Data Images/CXR/Generated_and_Normal.png" height="260">
+<img src="images/Data Images/NIH/ATE_CAR.png" height="260">
 </td>
 <td align="center">
-<img src="images/Data Images/CXR/Generated_and_Original_Pneumonia_Images.png" height="260">
+<img src="images/Data Images/NIH/PNE_EFF.png" height="260">
 </td>
 </tr>
 </table>
