@@ -373,6 +373,17 @@ Click on the figure to open it in a new window for a clearer and more detailed v
 The dataset used in this study consists of Chest X-ray (CXR) images with two classes: *NORMAL* and *PNEUMONIA*. The dataset is structured as follows:
 - `dataset/NORMAL`: Contains normal CXR images.
 - `dataset/PNEUMONIA`: Contains pneumonia CXR images.
+  
+<table>
+<tr>
+<td align="center">
+<img src="images/Generated_and_Normal.png" height="260">
+</td>
+<td align="center">
+<img src="images/Generated_and_Original_Pneumonia_Images.png" height="260">
+</td>
+</tr>
+</table>
 
 ### NIH Chest X-ray Dataset of 14 Common Thorax Disease Categories
 The ChestX-ray dataset comprises 112,120 frontal-view X-ray images from 30,805 unique patients. Each image is
