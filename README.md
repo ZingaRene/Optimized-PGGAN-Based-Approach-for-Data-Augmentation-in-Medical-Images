@@ -381,14 +381,16 @@ atelectasis, consolidation, infiltration, pneumothorax, edema, emphysema, fibros
 From this dataset, we selected four specific categories for our experiments: 
 -`pneumonia`, `effusion`, `atelectasis`, and `cardiomegaly`.
 
+<table>
 <tr>
 <td align="center">
-<img src="images/EFF_INF_.png" height="260">
+<img src="images/Data Images/CXR/Generated_and_Normal.png" height="260">
 </td>
 <td align="center">
-<img src="images/EFF_PNE_.png" height="260">
+<img src="images/Data Images/CXR/Generated_and_Original_Pneumonia_Images.png" height="260">
 </td>
 </tr>
+</table>
 
 ## 7. Code Execution Guide
 
@@ -460,43 +462,9 @@ The results from the cross-validation and test set evaluations will provide insi
 
 ### Frequently Asked Questions
 - **For any questions or issues**, feel free to reach out via email:
-  - Iman Khazrak: [ikhazra@bgsu.edu](mailto:ikhazra@bgsu.edu)
-  - Mostafa Rezaee: [mostam@bgsu.edu](mailto:mostam@bgsu.edu)
+  - Zinga Banda Firmino René: [gaa4qu@inf.elte.hu](gaa4qu@inf.elte.hu)
+  - Ali S. Abosinnee: [abosinnee.ali@inf.elte.hu](abosinnee.ali@inf.elte.hu)tam@
 
-### Citation Guidelines
-If you find our work helpful or relevant to your research, please consider citing it. Below are the citation formats:
 
-- **IEEE Style**:  
-  I. Khazrak, S. Takhirova, M. M. Rezaee, M. Yadollahi, R. C. Green II, and S. Niu,  
-  "Addressing Small and Imbalanced Medical Image Datasets Using Generative Models: A Comparative Study of DDPM and PGGANs with Random and Greedy K Sampling," arXiv preprint, vol. 2412.12532, 2024. [Online]. Available: [https://arxiv.org/abs/2412.12532](https://arxiv.org/abs/2412.12532).
+Thank you for your visit!
 
-- **BibTeX**:
-  ```bibtex
-  @misc{khazrak2024addressingsmallimbalancedmedical,
-      title={Addressing Small and Imbalanced Medical Image Datasets Using Generative Models: A Comparative Study of DDPM and PGGANs with Random and Greedy K Sampling}, 
-      author={Iman Khazrak and Shakhnoza Takhirova and Mostafa M. Rezaee and Mehrdad Yadollahi and Robert C. Green II and Shuteng Niu},
-      year={2024},
-      eprint={2412.12532},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.12532}, 
-  }
-  ```
-
-Thank you for your support!
-
-<!-- 
-# Commands:
-
-To make tree (folders and files):   
-Mac/Linux: tree -a --dirsfirst -I '.git' > tree.txt  
-
-To make tree (just folders):
-tree -d > tree.txt
-
-To delete Zone.Identifier files which are made by windows:          
-find . -type f -name "*Zone.Identifier*" -exec rm -f "{}" +   
-
-To count the number of files:  
-find . -type f | wc -l                                        
--->
