@@ -164,36 +164,27 @@ The inclusion of synthetic images accelerates the convergence of classification 
 ## 3. Repository Contents
 ```
 .
-├── Cite us
-│   └── README.md
 ├── Codes
-│   ├── Classification Models
-│   │   ├── VGG_help.py
-│   │   ├── plots.py
-│   │   ├── pretrained_balanced-VGG_ResNet-epo5.ipynb
-│   │   ├── pretrained_imbalanced-VGG_ResNet-epo5.ipynb
-│   │   ├── untrained_balanced-VGG_ResNet.ipynb
-│   │   └── untrained_imbalanced-VGG_ResNet.ipynb
+│   ├── Classification_Models.1.o.
+│   │   ├── VGG_help1.py
+│   │   ├── pretrained_Densenet121_epo5.Synthectic.NIH14_Only.ipynb
+│   │   ├── pretrained_Densenet121_epo5_Without.Shyntetic.ipynb
+│   │   ├── pretrained_densenet212__epo5.Shynthetic.Only.CXR.ipynb 
+│   │   
 │   ├── DDPM
 │   │   └── DDPM_Pytorch.ipynb
 │   ├── FID
-│   │   ├── FID.ipynb
-│   │   ├── Results.txt
-│   │   ├── fid.sh
-│   │   ├── fid_comparison_plot.png
-│   │   ├── fid_comparison_plot_full.png
-│   │   └── fid_plot.ipynb
+│   │   ├── FID.5.0.ETEL_CARDIO.ipynb
+│   │   ├── FID.5.0.EFF_PNE.ipynb
+│   │   ├── FID.5.0.EFF_INF.ipynb
+│   │   └── FID.5.0.Baseline_Experience_Compparison.ipynb
 │   └── PGGANs
-│       ├── ModelTrainingImages
-│       │   ├── PGAN_Architecture.png
-│       │   ├── PGAN_NRM_loss.png
-│       │   └── PGAN_PNM_loss.png
-│       ├── progan_modules.py
-│       ├── train.py
-│       ├── train_config_NRM200k_2024-04-11_20_17.txt
-│       ├── train_config_PNM200k_2024-04-11_21_23.txt
-│       ├── train_log_NRM200k_2024-04-11_20_17.txt
-│       └── train_log_PNM200k_2024-04-11_21_23.txt
+│   │   │
+│   │   ├── trainn.2.0.py
+│   │   └── progan_modulesss.py
+│   │   
+│   └──project_root1
+│
 ├── Dataset
 │   ├── All_Data
 │   │   ├── NORMAL
@@ -297,8 +288,7 @@ The inclusion of synthetic images accelerates the convergence of classification 
 ├── LICENSE
 ├── README.md
 ├── environment.yml
-├── requirements.txt
-└── tree.txt
+└── requirements.txt
 
 85 directories, 64659 files
 ```
